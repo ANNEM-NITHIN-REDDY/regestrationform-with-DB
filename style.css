@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 97vh;
+}
+fieldset{
+    padding: 2rem;
+}
+legend{
+    color: lightblue;
+}
+.side-heading{
+    color: black;
+}
+.button{
+    padding: 0.2rem 1rem ;
+    margin-right: 1rem;
+    text-rendering: optimizeSpeed;
+    transition: 350ms;
+}
+.button:hover{
+    transform: scale(1.025);
+    text-rendering: optimizeSpeed;
+
+}
